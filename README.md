@@ -217,8 +217,8 @@ Run the notebook cells in order on Kaggle.
 
 ### 5. Output
 
-Training results would be saved in `/kaggle/working/Assignment1/benchmark_results.csv`, 
-including `gsm8k_accuracy` and `math_accuracy`, the ones needed for Assignment1.
+Training results will be saved in `/kaggle/working/Assignment1/benchmark_results.csv`, 
+including accuracy performance on both datasets.
 
 Under the directory `/kaggle/working/Assignment1/metamath_pissa_{YOUR_COMPONENT_NAME}_r{YOUR_RANK}_full_model/`, you will find files `model.safetensors`, `config.json`, and `generation_config.json`, which can be used to load trained models if needed.
 
